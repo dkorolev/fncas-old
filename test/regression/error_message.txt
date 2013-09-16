@@ -1,0 +1,9 @@
+==16088== Process terminating with default action of signal 11 (SIGSEGV): dumping core
+==16088==  General Protection Fault
+==16088==    at 0x537626D: __c32 (sincos32.c:101)
+==16088==    by 0x537746D: __mpcos (sincos32.c:237)
+==16088==    by 0x5352C6C: __cos_sse2 (s_sin.c:1021)
+==16088==    by 0xCEAB4C4: ??? (in /tmp/2453601.so)
+==16088==    by 0xC90D03F: ???
+==16088==    by 0x76222BF: ???
+==16088==    by 0x403491: main (in /home/dima/github/dkorolev/fncas/test/regression/test_binary)
